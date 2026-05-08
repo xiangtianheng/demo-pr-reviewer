@@ -1,0 +1,17 @@
+{
+  "id": "demo-pr-reviewer",
+  "name": "demo-pr-reviewer",
+  "role": "worker",
+  "version": "0.1.0",
+  "description": "Test fixture for verifying litellm/ object-form (both fields) prefix stripping.",
+  "category": "Testing",
+  "owner": "xiangtianheng",
+  "capabilities": ["test-fixture"],
+  "model": {
+    "primary": "litellm/claude-opus-4-7",
+    "fallback": "litellm/gpt-4-1"
+  },
+  "runtime": { "engine": "claude-code" },
+  "skills": [],
+  "env": {}
+}
